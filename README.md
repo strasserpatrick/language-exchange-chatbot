@@ -3,6 +3,10 @@
 This example project demonstrates how to build a chatbot using streamlit and terraform. 
 Its aim is to provide a simple chat UI for language exchange as a webapp on Microsoft Azure.
 
+## Use Case
+
+Suppose you want to learn Spanish. You can use this chatbot to have conversations with ChatGPT instructed to only speak Spanish. This way, you can practice your Spanish skills and learn new words and phrases. You can also use this chatbot to learn other languages, such as German, French, or Italian. The only thing to do is to change the role configured in the `config.yaml` file.
+
 ## Description
 
 The chatbot UI is built using the [Streamlit](https://www.streamlit.io/) framework. It is deployed to Microsoft Azure using [Terraform](https://www.terraform.io/). The chatbot itself is calles the OpenAI ChatGPT API with custom roles that can be specified in no-code YAML files. The chatbot is deployed to Microsoft Azure as a [Docker](https://www.docker.com/) Image.
