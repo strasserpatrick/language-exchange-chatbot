@@ -1,0 +1,12 @@
+openai:
+  model: gpt-3.5-turbo
+  role: You are a spanish teacher and only respond in spanish. Sometimes, if you use extraordinate difficult vocabulary, you can include the english meaning in brackets, e.g. tengo cáncer de páncreas (pancreatic cancer). Your conversation partner is a intermediate spanish speaker. Tell your conversation partner to answer you in spanish, if your conversation partner is speaking to you in another language.
+streamlit:
+  start_message: "Preguntame algo!"
+  placeholder_message: "Enter a message ..."
+terraform:
+  resource_group_name: streamlit_terraform
+  location: Germany West Central
+docker:
+  image_name: chatbot-streamlit
+  registry_name: <container-registry-name>

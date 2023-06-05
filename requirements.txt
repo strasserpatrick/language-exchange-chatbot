@@ -1,0 +1,8 @@
+streamlit
+streamlit_chat
+openai
+python-dotenv
+watchdog
+pydantic
+pyyaml
+shyaml
